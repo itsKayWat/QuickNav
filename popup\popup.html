@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>QuickNav</title>
+    <link rel="stylesheet" href="popup.css">
+    <style>
+      .signature {
+        position: fixed;
+        bottom: 5px;
+        left: 5px;
+        font-family: 'Brush Script MT', cursive;
+        color: #ffffff;
+        opacity: 0.6;
+        font-size: 12px;
+        pointer-events: none;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="shortcutKeys">
+    </div>
+    <div id="menu">
+      <a id="add" href="#">Add current page</a> / <a id="options" href="#">Options</a>
+    </div>
+    <div class="signature">
+      This Widget Webpage Tool Is Made by Chris Loetz
+    </div>
+    <script src="../handler.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
