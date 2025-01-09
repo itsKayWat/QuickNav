@@ -1,0 +1,7 @@
+# Chrome Extension doesn't require Python dependencies
+# This file is included for documentation purposes
+
+# Development Tools (optional)
+eslint==8.40.0
+prettier==2.8.8
+web-ext==7.6.1
