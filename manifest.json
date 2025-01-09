@@ -1,0 +1,48 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "QuickNav",
+  "version": "1.7.1",
+  "description": "Quick navigation with customizable keyboard shortcuts for your favorite websites",
+  "homepage_url": "https://github.com/yourusername/QuickNav",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background-wrapper.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "QuickNav",
+    "default_popup": "popup/popup.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Period",
+        "mac": "Command+Comma"
+      }
+    }
+  },
+  "default_locale": "en"
+}
