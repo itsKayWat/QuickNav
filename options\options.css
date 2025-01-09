@@ -1,0 +1,206 @@
+body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.container {
+  padding-bottom: 15px;
+}
+
+h1 {
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.control-label {
+  font-weight: normal;
+}
+
+.alert {
+  background-color: #2d2d2d;
+  border-color: #333;
+  color: #e0e0e0;
+}
+
+.panel {
+  background-color: #2d2d2d;
+  border: 1px solid #333;
+}
+
+.panel-heading {
+  background-color: #252525 !important;
+  border-bottom: 1px solid #333;
+  color: #ffffff !important;
+}
+
+.panel-body {
+  background-color: #2d2d2d;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0px;
+}
+
+#startupKey {
+  font-family: Consolas, Menlo, 'Liberation Mono', Courier, monospace;
+  width: 200px;
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  cursor: default;
+}
+
+#startupKey[disabled] {
+  background-color: #fbfbfb;
+}
+
+#startupKey:disabled {
+  opacity: 0.7;
+  color: #e0e0e0;
+}
+
+#startupKeyHelp, #columnCountHelp, #disabledSyncHelp, #scriptHelp {
+  font-size: 90%;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+#inputColumnCount {
+  width: 200px;
+}
+
+#shortcutKeys .panel-title {
+  font-size: inherit;
+}
+
+#shortcutKeys .summary .key {
+  font-family: Consolas, Menlo, 'Liberation Mono', Courier, monospace;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#shortcutKeys .summary .title {
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+#shortcutKeys div.alert {
+  margin-bottom: 10px;
+}
+
+#shortcutKeys .panel {
+  margin-bottom: 1px;
+}
+
+#shortcutKeys .panel-heading {
+  background-color: #fbfbfb;
+  padding: 5px 15px;
+}
+
+#shortcutKeys .panel-heading .alert-icon {
+  color: #c9302c;
+}
+
+#shortcutKeys .panel-body .optional {
+  margin-left: 5px;
+}
+
+#shortcutKeys .ignore-has-error {
+  color: #333;
+}
+
+#shortcutKeys .duplicate-message {
+  white-space: nowrap;
+}
+
+.form-control {
+  background-color: #333;
+  border: 1px solid #444;
+  color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #00b7ff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 183, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #00b7ff;
+  border-color: #0099d6;
+}
+
+.btn-primary:hover {
+  background-color: #0099d6;
+  border-color: #0088bf;
+}
+
+.shortcuts-link {
+  color: #00b7ff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.shortcuts-link:hover {
+  text-decoration: underline;
+}
+
+#shortcutsButton {
+  margin-left: 10px;
+  background-color: #00b7ff;
+  border-color: #0099d6;
+  color: #ffffff;
+}
+
+#shortcutsButton:hover {
+  background-color: #0099d6;
+  border-color: #0088bf;
+}
+
+#githubControls {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #252525;
+  border-radius: 4px;
+}
+
+#githubToken {
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.alert-success {
+  background-color: #1e4620;
+  border-color: #2f6f31;
+  color: #98c898;
+}
+
+.alert-info {
+  background-color: #1e4d61;
+  border-color: #2f7a9e;
+  color: #98c8e0;
+}
+
+.alert-warning {
+  background-color: #4d3c00;
+  border-color: #7a5f00;
+  color: #e0c898;
+}
+
+.alert-danger {
+  background-color: #4d1e1e;
+  border-color: #7a2f2f;
+  color: #e09898;
+}
