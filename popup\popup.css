@@ -1,0 +1,57 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  min-width: 300px;
+}
+
+#shortcutKeys {
+  max-width: 780px;
+}
+
+#shortcutKeys div.column {
+  break-inside: avoid;
+  break-after: column;
+}
+
+#shortcutKeys div.item {
+  white-space: nowrap;
+  overflow: hidden;
+  min-height: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+#shortcutKeys div.item:hover {
+  background-color: #2d2d2d;
+}
+
+#shortcutKeys div.item span.key {
+  font-family: Consolas, Menlo, 'Liberation Mono', Courier, monospace;
+  font-weight: bold;
+  margin: 0 5px;
+  color: #00b7ff;
+}
+
+#shortcutKeys div.item span.title {
+  margin-right: 5px;
+  white-space: nowrap;
+  color: #e0e0e0;
+}
+
+#menu {
+  white-space: nowrap;
+  margin: 10px 5px;
+  text-align: right;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+#menu a {
+  color: #00b7ff;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
